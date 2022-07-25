@@ -5,6 +5,8 @@
  */
 package p3;
 
+import p0.Outlook;
+
 /**
  *
  * @author reroes
@@ -37,6 +39,10 @@ public class Correo {
     
     public String obtenerCorreo(){
         return correo;
+    }
+
+    public void establecerDominio(Outlook o) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

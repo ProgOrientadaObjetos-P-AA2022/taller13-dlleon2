@@ -14,6 +14,7 @@ import p3.Correo;
  */
 public class Estudiante {
 
+    
     private String nombres;
     private String username;
     private ArrayList<Correo> correos;
